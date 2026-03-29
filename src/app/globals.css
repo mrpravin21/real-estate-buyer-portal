@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: var(--font-playfair), ui-serif, Georgia, serif;
+  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+
+  --color-cream-50: #fdfbf7;
+  --color-cream-100: #f7f3eb;
+  --color-cream-200: #ebe4d6;
+
+  --color-burgundy-600: #8b1538;
+  --color-burgundy-700: #6d0f2b;
+  --color-burgundy-800: #4a0a1d;
+  --color-burgundy-900: #2c0610;
+
+  --color-gold-400: #d4a853;
+  --color-gold-500: #c4943c;
+  --color-gold-600: #a67c32;
+
+  --shadow-soft: 0 4px 24px -4px rgb(74 10 29 / 0.12);
+  --shadow-glow: 0 0 40px -10px rgb(212 168 83 / 0.35);
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth antialiased;
+  }
+
+  body {
+    @apply bg-cream-50 text-burgundy-800 font-sans;
+    background-image:
+      radial-gradient(
+        ellipse 120% 80% at 100% -20%,
+        rgb(212 168 83 / 0.08),
+        transparent
+      ),
+      radial-gradient(
+        ellipse 80% 50% at 0% 100%,
+        rgb(139 21 56 / 0.06),
+        transparent
+      );
+    min-height: 100dvh;
+  }
+
+  ::selection {
+    @apply bg-gold-400/30 text-burgundy-800;
+  }
+}
