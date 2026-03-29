@@ -74,7 +74,7 @@ export function HomePageClient({
             animate="show"
             className="font-display max-w-3xl text-4xl font-semibold leading-[1.1] tracking-tight text-burgundy-900 sm:text-5xl lg:text-6xl"
           >
-            Curated homes.
+            Discover homes.
             <span className="block text-gold-600">Your shortlist, secured.</span>
           </motion.h1>
           <motion.p

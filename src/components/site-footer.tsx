@@ -15,7 +15,7 @@ export async function SiteFooter() {
             <span className="text-gold-600">Buyer&apos;s Portal</span>
           </p>
           <p className="mt-2 max-w-sm text-sm leading-relaxed text-burgundy-800/65">
-            Curated listings and a secure buyer portal for Kathmandu &amp; Lalitpur.
+            Discover listings and a secure buyer portal for Kathmandu &amp; Lalitpur.
           </p>
         </div>
         <nav className="flex flex-wrap gap-x-8 gap-y-3 text-sm font-semibold text-burgundy-800/80">
