@@ -6,6 +6,10 @@ A small full-stack assessment app with:
 - Buyer dashboard with personal favourites (like/unlike)
 - Supabase Postgres + Drizzle ORM
 
+## Live Demo (Vercel)
+
+### https://buyerportalassesment.vercel.app
+
 ## Quick run
 1. Create `.env.local`:
    - `DATABASE_URL=...`
